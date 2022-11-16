@@ -2,6 +2,18 @@
   text-align: center;
 }
 
+.input-wrapper {
+  position: relative;
+}
+
+.drop-down {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -32,6 +44,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
